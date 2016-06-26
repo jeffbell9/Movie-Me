@@ -28,7 +28,7 @@ if(location.search === "?title=DirtyHarry") {
 
 $("title").html(title);
 
-$.get('http://www.omdbapi.com/?t=' + title + '&y=&plot=short&r=json', function(data) {
+$.get('https://www.omdbapi.com/?t=' + title + '&y=&plot=short&r=json', function(data) {
 	var info = {
 		title: data.Title,
 		year: data.Year,
