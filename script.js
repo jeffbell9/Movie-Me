@@ -28,7 +28,16 @@ if(location.search === "?title=DirtyHarry") {
 
 $("title").html(title);
 
-$.get('https://www.omdbapi.com/?t=' + title + '&y=&plot=short&r=json', function(data) {
+function getData (callback) {
+	$.ajax({
+		url: 'https://www.omdbapi.com/?t=' + title + '&y=&plot=short&r=json',
+		dataType: 'jsonp',
+		success: callback
+	});
+}	
+
+getData(function(data) {
+
 	var info = {
 		title: data.Title,
 		year: data.Year,
