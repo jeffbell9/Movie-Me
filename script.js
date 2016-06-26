@@ -1,4 +1,32 @@
-var title = $("title").html();
+var title;
+
+if(location.search === "?title=DirtyHarry") {
+	title = "Dirty Harry";
+} else if (location.search === "?title=DieHard") {
+	title = "Die Hard";
+} else if (location.search === "?title=TheMatrix") {
+	title = "The Matrix";
+} else if (location.search === "?title=LethalWeapon") {
+	title = "Lethal Weapon";
+} else if (location.search === "?title=TheBluesBrothers") {
+	title = "The Blues Brothers";
+} else if (location.search === "?title=Airplane") {
+	title = "Airplane";
+} else if (location.search === "?title=BlazingSaddles") {
+	title = "Blazing Saddles";
+} else if (location.search === "?title=ThisIsSpinalTap") {
+	title = "This Is Spinal Tap";
+} else if (location.search === "?title=SleeplessInSeattle") {
+	title = "Sleepless In Seattle";
+} else if (location.search === "?title=P.S.ILoveYou") {
+	title = "P.S. I Love You";
+} else if (location.search === "?title=SweetNovember") {
+	title = "Sweet November";
+} else if (location.search === "?title=Something%27sGottaGive") {
+	title = "Something's Gotta Give";
+}
+
+$("title").html(title);
 
 $.get('http://www.omdbapi.com/?t=' + title + '&y=&plot=short&r=json', function(data) {
 	var info = {
@@ -55,7 +83,7 @@ $.get('http://www.omdbapi.com/?t=' + title + '&y=&plot=short&r=json', function(d
 		}
 
 		window.open(url);
-	})
+	});
 });
 
 
