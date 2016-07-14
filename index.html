@@ -1,37 +1,79 @@
 <!DOCTYPE html>
 <html>
 <head>
+	<html lang="en">
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Movie Me!</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
 	<link rel="stylesheet" href="css/styles.css">
-</head>
-<header>
-	<h1>Movie Me!</h1>
-	<span id="more">Click on a movie for more info</span>
-</header>
+</head>	
 <body>
-	<div id="container">
-		<h3><span class="category">Action</span></h3>
-		<ul>
-			<li><a href='info.html?title=DirtyHarry'><img src="http://movieposterdb.com/img/posters/11_08/1971/66999/t_66999_5f9e2a41.jpg" alt="Dirty Harry"><br>Dirty Harry</a><li>
-			<li><a href='info.html?title=DieHard'><img src="http://movieposterdb.com/img/posters/12_04/1988/95016/t_95016_bb68dd8c.jpg" alt="Die Hard"><br>Die Hard</a><li>
-			<li><a href='info.html?title=TheMatrix'><img src="http://movieposterdb.com/img/posters/06_11/1999/0133093/t_145384_0133093_fd241228.jpg" alt="he Matrix"><br>The Matrix</a><li>
-			<li><a href='info.html?title=LethalWeapon'><img src="http://movieposterdb.com/img/posters/09_08/1987/93409/t_93409_af59c68d.jpg" alt="Lethal Weapon"><br>Lethal Weapon</a><li>
-		</ul>
-		<h3><span class="category">Comedy</span></h3>
-		<ul>
-			<li><a href='info.html?title=TheBluesBrothers'><img src="http://movieposterdb.com/img/posters/07_10/1980/80455/t_80455_b53379b4.jpg" alt="The Blues Brothers"><br>The Blues Brothers</a><li>
-			<li><a href='info.html?title=Airplane'><img src="http://movieposterdb.com/img/posters/10_08/1980/80339/t_80339_bf098d10.jpg" alt="Airplane"><br>Airplane</a><li>
-			<li><a href='info.html?title=BlazingSaddles'><img src="http://movieposterdb.com/img/posters/15_10/1974/71230/t_71230_3b1fa003.jpg" alt="Blazing Saddles"><br>Blazing Saddles</a><li>
-			<li><a href='info.html?title=ThisIsSpinalTap'><img src="http://movieposterdb.com/img/posters/08_03/1984/88258/t_88258_12103506.jpg" alt="This Is Spinal Tap"><br>This Is Spinal Tap</a><li>
-		</ul>
-		<h3><span class="category">Romance</span></h3>
-		<ul>
-			<li><a href='info.html?title=SleeplessInSeattle'><img src="http://movieposterdb.com/img/posters/09_06/1993/108160/t_108160_e6215c1f.jpg" alt="Sleepless In Seattle"><br>Sleepless In Seattle</a><li>
-			<li><a href='info.html?title=P.S.ILoveYou'><img src="http://movieposterdb.com/img/posters/14_09/2007/431308/t_431308_24de69c3.jpg" alt="P.S. I Love You"><br>P.S. I Love You</a><li>
-			<li><a href='info.html?title=SweetNovember'><img src="http://movieposterdb.com/img/posters/05_03/2001/0230838/t_9847_0230838_8c3d7e88.jpg" alt="Sweet November"><br>Sweet November</a><li>
-			<li><a href="info.html?title=Something'sGottaGive"><img src="http://movieposterdb.com/img/posters/10_11/2003/337741/t_337741_57a24ad9.jpg" alt="Something's Gotta Give"><br>Something's Gotta Give</a><li>
-		</ul>
+	<div class="container-fluid">
+		<div id="page-header" class="row">
+			<div class="col-md-4 col-md-offset-4">
+  				<h1 class="text-center">Movie Me!</h1>
+  			</div>
+  			<div class="col-md-4">
+  				<h3 id="more" class="text-right">Click on a movie for more info<h3>
+  			</div>
+		</div>
+		<div class="row">
+			<h3><span class="category">Action</span></h3>
+		</div>
+		<div class="row list-items">
+			<div class="col-sm-3">
+				<a href='info.html?title=DirtyHarry'><img class="poster" src="http://movieposterdb.com/img/posters/11_08/1971/66999/t_66999_5f9e2a41.jpg" alt="Dirty Harry"><br>Dirty Harry</a>
+			</div>
+			<div <div class="col-sm-3">
+				<a href='info.html?title=DieHard'><img class="poster" src="http://movieposterdb.com/img/posters/12_04/1988/95016/t_95016_bb68dd8c.jpg" alt="Die Hard"><br>Die Hard</a>
+			</div>
+			<div <div class="col-sm-3">
+				<a href='info.html?title=TheMatrix'><img class="poster" src="http://movieposterdb.com/img/posters/06_11/1999/0133093/t_145384_0133093_fd241228.jpg" alt="he Matrix"><br>The Matrix</a>
+			</div>
+			<div <div class="col-sm-3">
+				<a href='info.html?title=LethalWeapon'><img class="poster" src="http://movieposterdb.com/img/posters/09_08/1987/93409/t_93409_af59c68d.jpg" alt="Lethal Weapon"><br>Lethal Weapon</a>
+			</div>
+		</div>
+		<div class="row">
+			<h3><span class="category">Comedy</span></h3>
+		</div>
+		<div class="row list-items">
+			<div class="col-sm-3">
+				<a href='info.html?title=TheBluesBrothers'><img class="poster" src="http://movieposterdb.com/img/posters/07_10/1980/80455/t_80455_b53379b4.jpg" alt="The Blues Brothers"><br>The Blues Brothers</a>
+			</div>
+			<div class="col-sm-3">
+				<a href='info.html?title=Airplane'><img class="poster" src="http://movieposterdb.com/img/posters/10_08/1980/80339/t_80339_bf098d10.jpg" alt="Airplane"><br>Airplane</a>
+			</div>
+			<div class="col-sm-3">
+				<a href='info.html?title=BlazingSaddles'><img class="poster" src="http://movieposterdb.com/img/posters/15_10/1974/71230/t_71230_3b1fa003.jpg" alt="Blazing Saddles"><br>Blazing Saddles</a>
+			</div>
+			<div class="col-sm-3">
+				<a href='info.html?title=ThisIsSpinalTap'><img class="poster" src="http://movieposterdb.com/img/posters/08_03/1984/88258/t_88258_12103506.jpg" alt="This Is Spinal Tap"><br>This Is Spinal Tap</a>
+			</div>
+		</div>
+		<div class="row">
+			<h3><span class="category">Romance</span></h3>
+		</div>
+		<div class="row list-items">
+			<div class="col-sm-3">
+				<a href='info.html?title=SleeplessInSeattle'><img class="poster" src="http://movieposterdb.com/img/posters/09_06/1993/108160/t_108160_e6215c1f.jpg" alt="Sleepless In Seattle"><br>Sleepless In Seattle</a>
+			</div>
+			<div class="col-sm-3">
+				<a href='info.html?title=P.S.ILoveYou'><img class="poster" src="http://movieposterdb.com/img/posters/14_09/2007/431308/t_431308_24de69c3.jpg" alt="P.S. I Love You"><br>P.S. I Love You</a>
+			</div>
+			<div class="col-sm-3">
+				<a href='info.html?title=SweetNovember'><img class="poster" src="http://movieposterdb.com/img/posters/05_03/2001/0230838/t_9847_0230838_8c3d7e88.jpg" alt="Sweet November"><br>Sweet November</a>
+			</div>
+			<div class="col-sm-3">
+				<a href="info.html?title=Something'sGottaGive"><img class="poster" src="http://movieposterdb.com/img/posters/10_11/2003/337741/t_337741_57a24ad9.jpg" alt="Something's Gotta Give"><br>Something's Gotta Give</a>
+			</div>
+		</div>
 	</div>	
-		
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" 
+integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" 
+crossorigin="anonymous"></script>		
 </body>
 </html>
