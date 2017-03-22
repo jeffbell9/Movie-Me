@@ -83,10 +83,10 @@ getData(function(data) {
 			url = "https://www.youtube.com/watch?v=z6F0VyKp4Ik";
 		} else if (title === "Sleepless In Seattle") {
 			url = "https://www.youtube.com/watch?v=L4KQsPnz8Tw";
-		} else if (title === "P.s. I Love You") {
-			url = "https://www.youtube.com/watch?v=3GNxdc-wlw4";
+		} else if (title === "P.S. I Love You") {
+			url = "https://youtu.be/1rqqidmUmSk";
 		} else if (title === "Sweet November") {
-			url = "https://www.youtube.com/watch?v=Tm249Zbv42Y";
+			url = "https://youtu.be/A7hkvdyG8x4";
 		} else if (title === "Something's Gotta Give") {
 			url = "https://www.youtube.com/watch?v=6zVzIaEuXS4";
 		}
