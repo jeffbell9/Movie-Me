@@ -2,7 +2,7 @@
   "name": "movie-me",
   "version": "1.0.0",
   "description": "",
-  "main": "index.html",
+  "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -18,5 +18,8 @@
   "bugs": {
     "url": "https://github.com/jeffbell9/Movie-Me/issues"
   },
-  "homepage": "https://github.com/jeffbell9/Movie-Me#readme"
+  "homepage": "https://github.com/jeffbell9/Movie-Me#readme",
+  "dependencies": {
+    "express": "^4.15.2"
+  }
 }
