@@ -1,0 +1,22 @@
+{
+  "name": "movie-me",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "engines": {
+    "node": "6.10.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jeffbell9/Movie-Me.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jeffbell9/Movie-Me/issues"
+  },
+  "homepage": "https://github.com/jeffbell9/Movie-Me#readme"
+}
