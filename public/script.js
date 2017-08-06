@@ -30,8 +30,8 @@ $("title").html(title);
 
 function getData (callback) {
 	$.ajax({
-		url: 'https://www.omdbapi.com/?t=' + title + '&y=&plot=short&r=json',
-		dataType: 'jsonp',
+		url: 'https://www.omdbapi.com/?apikey=6bb696a0&t=' + title + '&y=&plot=short&r=json',
+		dataType: 'json',
 		success: callback
 	});
 }	
